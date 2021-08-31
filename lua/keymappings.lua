@@ -9,5 +9,8 @@ utils.map('n', '<leader>h', '<cmd>wincmd h<CR>')
 utils.map('n', '<leader>j', '<cmd>wincmd j<CR>')
 utils.map('n', '<leader>k', '<cmd>wincmd k<CR>')
 utils.map('n', '<leader>l', '<cmd>wincmd l<CR>')
+utils.map('n', '<leader>[', '<cmd>bnext<CR>')
+utils.map('n', '<leader>[', '<cmd>bprev<CR>')
+
 
 

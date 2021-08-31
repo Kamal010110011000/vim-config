@@ -34,3 +34,4 @@ require('config.fugitive')     -- fugitive
 require('config.treesitter')    --treesitter
 require('config.nvimtree')      --nvimtree
 require('config.devicons')      --devicons
+require('config.airline')       --airline
