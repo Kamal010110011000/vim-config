@@ -34,3 +34,38 @@ local tree_cb = require'nvim-tree.config'.nvim_tree_callback
       { key = "q",                            cb = tree_cb("close") },
       { key = "g?",                           cb = tree_cb("toggle_help") },
     }
+    
+vim.opt.termguicolors=true -- this variable must be enabled for colors to be applied properly
+
+--vim.g.nvim_tree_icons = {
+-- 'default': '',
+--'javascript': '',
+-- 'symlink': '',
+-- 'git': {
+--   'unstaged': "✗",
+--   'staged': "✓",
+--   'unmerged': "",
+--   'renamed': "➜",
+--   'untracked': "★",
+--   'deleted': "",
+--   'ignored': "◌"
+--   },
+-- 'folder': {
+--   'arrow_open': "",
+--   'arrow_closed': "",
+--   'default': "",
+--   'open': "",
+--   'empty': "",
+--   'empty_open': "",
+--   'symlink': "",
+--   'symlink_open': "",
+--   },
+--   'lsp': {
+--     'hint': "",
+--     'info': "",
+--     'warning': "",
+--     'error': "",
+--   }
+-- }
+
+

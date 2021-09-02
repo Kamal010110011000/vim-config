@@ -114,9 +114,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ikkaku/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/ikkaku/.local/share/nvim/site/pack/packer/start/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/home/ikkaku/.local/share/nvim/site/pack/packer/start/vim-airline-themes"
+  },
   ["vim-dispatch"] = {
     loaded = true,
     path = "/home/ikkaku/.local/share/nvim/site/pack/packer/start/vim-dispatch"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/ikkaku/.local/share/nvim/site/pack/packer/start/vim-floaterm"
   },
   ["vim-fugitive"] = {
     loaded = true,

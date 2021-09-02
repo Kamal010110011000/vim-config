@@ -34,6 +34,7 @@ return require('packer').startup(function()
     'kyazdani42/nvim-tree.lua',
     requires = 'kyazdani42/nvim-web-devicons'
     }
+    use{'voldikss/vim-floaterm'}
     
     use{'vim-airline/vim-airline',
     requires = 'vim-airline/vim-airline-themes'

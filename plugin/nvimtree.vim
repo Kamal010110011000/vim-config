@@ -82,7 +82,7 @@ let g:nvim_tree_icons = {
     \     'info': "",
     \     'warning': "",
     \     'error': "",
-    \   }
+    \   },
     \ }
 
 nnoremap <C-t> :NvimTreeToggle<CR>
@@ -91,6 +91,6 @@ nnoremap <leader>n :NvimTreeFindFile<CR>
 " NvimTreeOpen, NvimTreeClose and NvimTreeFocus are also available if you need them
 
 set termguicolors " this variable must be enabled for colors to be applied properly
-
+let a = "Kamal"
 " a list of groups can be found at `:help nvim_tree_highlight`
 highlight NvimTreeFolderIcon guibg=blue
