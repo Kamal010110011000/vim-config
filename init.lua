@@ -22,8 +22,9 @@ require('plugins')
 require('keymappings')
 
 -- Setup Lua language server using submodule
+require('lang')
 require('lsp_lua')
-
+require('jdtls_setup')
 -- Another option is to groups configuration in one folder
 --require('config')
 

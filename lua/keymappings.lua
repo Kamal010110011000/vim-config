@@ -12,4 +12,6 @@ utils.map('n', '<leader>l', '<cmd>wincmd l<CR>')
 utils.map('n', '<leader>[', '<cmd>bnext<CR>')
 utils.map('n', '<leader>]', '<cmd>bprev<CR>')
 utils.map('n', '<leader>rn', '<cmd>call RunProgram()<CR>')
+utils.map('n', '<leader><leader>', '<c-\\><c-n>')
+utils.map('n', '<leader>ll', '<cmd>lua require\'jdtls\'.organize_imports()<CR>')
 
